@@ -1,0 +1,97 @@
+title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(211, 18, 28);
+}
+
+img
+{
+border-radius: 10px;
+}
+body
+{
+    background-color: rgb(12, 175, 137);
+}
+
+p
+{
+    font-family: 'MS', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    border-width:10px;
+    border-color: black
+    
+}
+
+h1
+{
+    padding-left: 20px;
+    font-family: 'MS', sans-serif;
+    font-size: 20px;
+    color: rgb(245, 244, 244);
+    border: 20px;
+    background: linear-gradient(to right, rgb(13, 53, 104), rgb(2, 79, 88));
+   
+
+}
+
+h1:hover
+{
+    background:aqua;
+    color: blue;
+}
+
+h2
+{
+    font-family: 'MS', sans-serif;
+    font-size: 16px;
+    color: rgb(39, 3, 57);
+    
+}
+
+h3{
+    font-family: 'MS', sans-serif;
+    font-size: 14px;
+    color: rgb(6, 58, 82);
+    
+}
+
+h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+li
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+
+}
+
+a:active
+{
+    color: rgb(111, 181, 222);
+}
+
+a:focus
+{
+    color: red;
+}
+
+
+.box {
+    height: 120px;
+    background: grey;
+    border-radius: 5px;
+    
+  }
+
+  .conteneur {
+    display: grid;
+    
+    
+    grid-template-columns: 100px 200px 200px;
+}
